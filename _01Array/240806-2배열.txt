@@ -1,0 +1,8 @@
+- 배열
+
+- 번호 6개  int a = 20;   연속             0    1   2    3   4  5   <---- index
+		int b = 30;   ---->    a -> 20  30  40  30  2  5   <---- value
+		int c = 40;
+		int d = 50;                int [ ] a = new int [6];
+		int e = 60;
+		int f  = 70;
