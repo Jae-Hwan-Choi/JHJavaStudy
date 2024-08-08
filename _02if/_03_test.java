@@ -57,17 +57,33 @@ public class _03_test {
 		System.out.println("합계는 "+sum+"입니다");
 		
 		// 문제 6 숫자의 모든 합을 구하시오 
-		int [] a = {45, 34, 64, 45, 24};
-		int sum2 = 0; 
-		sum2+=a[0];
-		sum2+=a[1];
-		sum2+=a[2];
-		sum2+=a[3];
-		sum2+=a[4];
-		System.out.println(sum2);
-	
+//		int [] a = {45, 34, 64, 45, 24};
+//		int sum2 = 0; 
+//		sum2+=a[0];
+//		sum2+=a[1];
+//		sum2+=a[2];
+//		sum2+=a[3];
+//		sum2+=a[4];
+//		System.out.println(sum2);
+//	
 		// 문제 7
-		int[] b = {45, 34, 64};
-		
+		int[] a = {45, 34, 64};
+		int maxValue = 0;
+		int maxIndex = 0;
+		int temp = a[0]/10 + a[0]%10;
+		if (temp > maxValue) {
+			maxValue=temp;
+			maxIndex = 0;
+		}
+		temp = a[1]/10+a[1]%10;
+		if (temp > maxValue) {
+			maxValue=temp;
+			maxIndex=1;
+		}
+		temp = a[2]/10+a[2]%10;
+		if (temp > maxValue) {
+			maxValue=temp;
+			maxIndex=2;
+		}
 	}
 }
