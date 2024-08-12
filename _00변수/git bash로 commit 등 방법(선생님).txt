@@ -5,7 +5,7 @@
 2. /c/javasrc/jhstudy/jhjava/src 
 3. git status 로 새로운 데이터 확인
 4. git add *
-4. git commit -m '제목' <--- 이게 뭔지 모름 제목인듯
+4. git commit -m '제목' 
 5. git push -f origin main  <-- -f는 강제로 전부 바꿈 / origin은 ?? 닉네임? 아이디? 분류? 디렉토리??
 push를 누르면 창이 뜨는 경우도 있고 아닌 경우도 있음
 	아래는 정상 push 후 나오는 내용
