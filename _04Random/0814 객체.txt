@@ -1,0 +1,25 @@
+객체     :    class    로     객체를 만든다   String    id    =    new       String ("abc);
+<암기>     부품             건물                (부품)              (만든다)      (건물)
+
+객체는 부품  -> 변수   -> 저장하는 기능    
+     	          -> 메서드 -> 기능 -> .length( );
+						.charAt(i);
+
+id(변수)를 저장한다
+문자열의 부품 : String
+부품을 만든다 : new String("    ");
+			|
+			> String id = new String ("   ")
+
+
+ex) 로또번호 추출
+int [ ] lo = new int [6];
+랜덤수를 제공하는 부품 -> Random <--- class
+
+Random r = new Random( );
+r.nextInt(45);
+
+객체 -> Random객체
+class -> 객체를 만든다
+Random 객체중에 nextInt( ) 라는 기능이 필요
+

@@ -1,0 +1,44 @@
+반복문에서 break,                                      continue 키워드 사용가능
+                  |						   |
+ 		  → 현재의 반복문을 종료한다.          → 더이상 코드를 실행하지 않는다
+									증감식( i++) -> 조건 판별( i< 10)
+									증가하거나, 감소하거나 하는식
+
+
+ex) continue 사용해 1-10까지 숫자중 짝수의 합을 구하라
+
+ int sum = 0;
+for (int i = 0; i <= 10; i++){
+	if (i%2==1){
+	continue
+     }
+} sum+=1;
+
+
+ex) String     id     =     "abcdefee"; // id에 알파벳 e는 금지
+    (자료형)  (변수)            (값)
+        |
+        > 원시 : . 사용불가 -> 종류 : int, char,  boolean, float
+           
+	   참조 : . 사용가능 -> 종류 : String, Random, Scanner (대문자)
+
+시나리오 
+
+id는 참조자료형(문자열) -> index가 있고 0 부터 시작
+			.length ( ) : 길이
+			.charAt (i) : 매개변수의 위치의 "문자"를 리턴
+			ex) i=1 -> b를 리턴
+
+코드 
+
+String id = "abcdefee";
+boolean flag = false;
+for (int = i=0; i < id.length( ); i++){
+	if (id.charAt(i) == e){
+	flag =true;
+	break;
+	}
+	if (flag) {
+	sysout("e가 포함됨")
+	} 
+} 
