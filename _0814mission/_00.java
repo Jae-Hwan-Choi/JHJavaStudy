@@ -11,7 +11,7 @@ public class _00 {
 		 * 입력 후 엔터를 쳐야 하니 버퍼를 지우는 in.nextInt()를 사용
 		 * 홀짝을 구분해야 하니 if ( % == 0)을 이용해 확인		 * 
 		 */
-		int [] oddEven = new int[1];
+		// int [] oddEven = new int[1];
 		Scanner in = new Scanner(System.in);
 		System.out.println("숫자를 입력하세요");
 		int k = in.nextInt(); // nextInt는 키보드로 숫자만 가져온다

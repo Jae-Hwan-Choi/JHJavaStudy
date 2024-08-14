@@ -16,7 +16,7 @@ public class _02 {
 		 */
 
 		Random r = new Random();
-		int [] ran = new int[1];
+		// int [] ran = new int[1];
 		int k = r.nextInt(100)+1;
 		
 		if(k % 7 == 0) {
