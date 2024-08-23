@@ -93,8 +93,7 @@ public class kgfinal {
 							System.out.println(GREEN_TEXT+"정답입니다"+RESET);
 						}else {					
 							System.out.println(RED_TEXT+"오답입니다"+RESET);
-						}
-							 
+						}							 
 				} break;
 			case 2:
 				for (int i=0; i < num; i++) {
@@ -103,7 +102,7 @@ public class kgfinal {
 						int index = r.nextInt(keyn.length());
 						rs.append(keyn.charAt(index));
 					}
-					String add = rs.toString();
+					String add = rs.toString();  // 뽑아낸 글자를 문자열로 add 변수에 저장
 					System.out.println(WHITE_BG+RED_TEXT+add+RESET+"를 정확하게 입력해 주세요"); // 추출한 단어 출력
 					a = sc.nextLine(); // 단어 입력받아 a변수로 저장
 					if(add.equals(a)) { // a변수와 randonWord equals로 비교
@@ -112,8 +111,7 @@ public class kgfinal {
 						System.out.println(GREEN_TEXT+"정답입니다"+RESET);
 					}else {					
 						System.out.println(RED_TEXT+"오답입니다"+RESET);
-					}
-							 
+					}							 
 				}break;
 		}
 		System.out.println(name+"님의 총점은 "+YELLOW_TEXT+String.format("%.1f",sum)+RESET
